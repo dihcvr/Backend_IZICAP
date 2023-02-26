@@ -1,5 +1,7 @@
 # Backend Engineering - Internship -- Izicap Homework -- LAKHL Rachid #
 
+<font color="red">To execute this project use the version that sent in email because of the API key is Rotated when committing the API key of chatGPT to Github.</font>
+
 ## Spring Boot Microservice for ChatGPT Communication ##
 
 This Spring Boot application includes a microservice that communicates with ChatGPT AI via an exposed endpoint. The microservice updates a CSV database with questions we send to ChatGPT and answers that the API provides us. The microservice is built using Spring Boot 3, Java 17, swagger/openapi, maven and actuator and encapsulated in a Docker container for consistency and portability across different environments. The endpoint accepts POST requests containing a question in the request body, sends the question to the OpenAI GPT API, and stores the question and API's response in a CSV file.
