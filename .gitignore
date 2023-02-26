@@ -1,10 +1,4 @@
 HELP.md
-target/
-!classes
-!generated-sources
-!generated-test-sources
-!maven-archiver
-!maven-status
 
 ### STS ###
 .apt_generated
