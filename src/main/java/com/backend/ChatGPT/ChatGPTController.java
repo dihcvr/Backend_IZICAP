@@ -24,7 +24,7 @@ import java.util.Iterator;
 @RestController
 public class ChatGPTController {
     // This annotation injects the value of the "api.key" property from the application.properties
-    @Value("${api.key}") private String openaiApiKey;
+    @Value("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") private String openaiApiKey;
     // Create a new HTTP client instance
     private HttpClient client = HttpClient.newHttpClient() ;
     // create a constant URI for the OpenAI completions endpoint
