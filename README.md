@@ -1,6 +1,7 @@
 # Backend Engineering - Internship -- Izicap Homework -- LAKHL Rachid #
 
 @@<h1 style="color:blue">To execute this project use the version that sent in email because of the API key is Rotated when committing the API key of chatGPT to Github.</h1>@@
+> project to execute : https://drive.google.com/file/d/1L2txf-RKHFCQJhdiv5GDtdwJvwg_u5BT/view?usp=sharing
 
 ## Spring Boot Microservice for ChatGPT Communication ##
 
