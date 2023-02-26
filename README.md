@@ -24,6 +24,7 @@ In the package com.backend.UnitTest : The main Test Class is: **TestUnit**
 2. Open a terminal and navigate to the root of the project.
 3. Build the Docker image by running the command:
    > docker build -t lakhl/springboot .
+
    > docker rm my_container   
 4. Run the Docker container by running the command:
    #### In Windows Command Line
