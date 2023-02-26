@@ -57,19 +57,6 @@ use the microservice with Swagger UI, open your browser and navigate to the foll
 
 This will display the Swagger UI interface where you can browse and test the different endpoints of your microservice.
 
-#### To check the updates in csv database in the container ###
-After running the container with mapping a location of thecsv file
-The CSV file is stored in a volume mapping a location in the host to a location in the container, so that it survives after the container is stopped and can continue to be appended to each time the app is executed.
-To check this run the following command:
-```
-# open a shell inside the running Docker container (my_container)
-docker exec -it my_container sh 
-# changes the current directory to the data_csv
-cd data_csv
-# display the contents of the csv file : Question-Answer.csv
-cat Question-Answer.csv
-```
-
 ### Unit tests: ###
 To run the unit tests for the Spring Boot application, you can use the following command:
 >docker run --name my_container -p 8080:8080 -v %cd%\data_csv:/data_csv lakhl/springboot mvn test -Dtest=UnitTest
